@@ -1,15 +1,21 @@
 #include <stdio.h>
+
 /**
- *main - print lower alphabet in reversed using putchar
- *Return: Always 0 (Success)
+ * main - print the letters of the alphabet
+ *
+ * Description: print the letters of the alphabet
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-char alpha = 'z';
-while (alpha >= 'a')
+int i = 122;
+while (i > 96)
 {
-putchar(alpha);
-alpha--;}
-putchar('\n');
+putchar(i);
+i--;
+}
+putchar(10);
 return (0);
 }
