@@ -16,3 +16,4 @@ char *_strstr(char *haystack, char *needle)
 	locSubstr = strstr(haystack, needle);
 	return (locSubstr);
 }
+

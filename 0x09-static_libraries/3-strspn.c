@@ -15,3 +15,4 @@ unsigned int _strspn(char *s, char *accept)
 	strLength = strspn(s, accept);
 	return (strLength);
 }
+
