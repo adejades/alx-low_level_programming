@@ -10,9 +10,9 @@
   */
 unsigned int _strspn(char *s, char *accept)
 {
-	int strLength;
+int strLength;
 
-	strLength = strspn(s, accept);
-	return (strLength);
+strLength = strspn(s, accept);
+return (strLength);
 }
 

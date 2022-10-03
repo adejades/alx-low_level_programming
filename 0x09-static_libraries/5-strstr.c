@@ -11,9 +11,9 @@
   */
 char *_strstr(char *haystack, char *needle)
 {
-	char *locSubstr;
+char *locSubstr;
 
-	locSubstr = strstr(haystack, needle);
-	return (locSubstr);
+locSubstr = strstr(haystack, needle);
+return (locSubstr);
 }
 
