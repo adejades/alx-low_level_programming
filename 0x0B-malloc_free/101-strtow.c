@@ -22,7 +22,6 @@ index++;
 }
 return (len);
 }
-
 /**
  * count_words - Counts the number of words contained within a string.
  * @str: The string to be searched.
@@ -44,7 +43,6 @@ index += word_len(str + index);
 }
 return (words);
 }
-
 /**
  * strtow - Splits a string into words.
  * @str: The string to be split.
@@ -84,4 +82,3 @@ strings[w][l] = '\0';
 strings[w] = NULL;
 return (strings);
 }
-

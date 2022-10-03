@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
-
 /**
  * create_array - creates an array of char
  * @size: size of the array
@@ -19,4 +18,3 @@ for (i = 0; i < size; i++)
 array_alloc[i] = arr;
 return (array_alloc);
 }
-

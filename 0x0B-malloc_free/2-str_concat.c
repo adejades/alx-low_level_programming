@@ -4,7 +4,6 @@
 #include "main.h"
 
 int _strlen(const char *s);
-
 /**
  * str_concat - concatenates two strings
  * @s1: pointer to the first string
@@ -29,7 +28,6 @@ strcat(output, s1);
 strcat(output, s2);
 return (output);
 }
-
 /**
  * _strlen - gets the length of a string
  * @s: the string of which length is required
@@ -39,8 +37,6 @@ return (output);
 int _strlen(const char *s)
 {
 int i = 0;
-for (; s[i] != '\0'; i++)
-;
+for (; s[i] != '\0'; i++);
 return (i);
 }
-

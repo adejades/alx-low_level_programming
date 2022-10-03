@@ -16,4 +16,3 @@ for (i = 0; i < row; i++)
 free(grid[i]);
 free(grid);
 }
-

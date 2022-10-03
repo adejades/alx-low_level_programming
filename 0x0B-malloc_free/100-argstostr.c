@@ -14,7 +14,6 @@ for (; s[size] != '\0'; size++)
 ;
 return (size);
 }
-
 /**
  * *argstostr - concatenates all the arguments
  * @ac: counts
@@ -42,4 +41,3 @@ cmpt++;
 s[cmpt] = '\0';
 return (s);
 }
-
